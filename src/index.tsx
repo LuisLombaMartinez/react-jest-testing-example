@@ -13,9 +13,12 @@ const setToken = (token: string) => {
   console.log(`received token: ${token}`);
 }
 
-  root.render(
-    <LoginComponent loginService={loginService} setToken={setToken}/>
+root.render(
+  <LoginComponent
+    loginService={loginService}
+    setToken={setToken}
+  />
 
-  );
+);
 
 
